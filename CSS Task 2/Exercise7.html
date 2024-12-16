@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Exercise 7</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        p{
+            font-family: Courier;
+            font-weight: bold;
+        }
+        .box{
+            display: inline-block;
+            background-color: red;
+            width: 100px;
+            height: 100px;
+        }
+        .green{
+            background-color: green;
+        }
+        .static-container,.relative-container,.absolute-container{
+            display: inline-block;
+            border: 3px dotted black;
+        }
+
+        .static-container .box{
+            position: static;
+        }
+
+        .relative-container .green{
+            position: relative;
+            top: 15px;
+            left: 15px;
+        }
+
+        .absolute-container{
+            position: relative;
+        }
+
+        .absolute-container .green{
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <p>position: static</p>
+    <div class="static-container">
+        <div class="box">One</div>
+        <div class="box green">Two</div>
+        <div class="box">Three</div>
+        <div class="box">Four</div>
+    </div>
+
+    <p>position: relative</p>
+    <div class="relative-container">
+        <div class="box">One</div>
+        <div class="box green">Two</div>
+        <div class="box">Three</div>
+        <div class="box">Four</div>
+    </div>
+
+    <p>position: absolute</p>
+    <div class="absolute-container">
+        <div class="box">One</div>
+        <div class="box green">Two</div>
+        <div class="box">Three</div>
+        <div class="box">Four</div>
+    </div>
+</body>
+</html>

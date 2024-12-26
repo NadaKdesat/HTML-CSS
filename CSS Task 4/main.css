@@ -28,13 +28,13 @@ header {
 .nav-links{
     position: absolute;
     top: 30px;
-    left: 650px;
+    left: 770px;
 }
 
 .nav-icons{
     position: absolute;
     top: 22px;
-    left: 1280px;
+    left: 1400px;
 }
 
 .nav-links a {
@@ -67,14 +67,13 @@ header {
 .hero-img :nth-child(2) {
     position: absolute;
     top: 126.93px;
-    left: 590px;
-    height: 520px;
+    left: 620px;
 }
 
 .hero-img :nth-child(1) {
     position: absolute;
     top: 190.87px;
-    left: 1088.27px;
+    left: 1200.27px;
     
 }
 
@@ -157,19 +156,19 @@ button {
 .all-products{
    position: absolute;
    top: 670px;
-   left: 320px;
+   left: 400px;
 }
 
 .p2{
     position: absolute;
     top: 0px;
-    left: 340px;
+    left: 350px;
 }
 
 .p3{
     position: absolute;
     top: 0px;
-    left: 670px;
+    left: 685px;
 }
 
 .product img {
@@ -419,7 +418,7 @@ h5 {
     width: 708.4px;
     text-align: center;
     color: black;
-    margin: 0px auto;
+    margin: 0px 140px;
 }
 
 .testimonials button {
@@ -428,7 +427,7 @@ h5 {
     border-radius: 50%;
     background-color: rgba(106, 106, 106, 10%);
     color: black;
-    margin: 0px 20px;
+    /* margin: 0px 20px; */
 }
 
 .testimonials .b2 {
@@ -495,7 +494,7 @@ h5 {
     flex-direction: column;
     position: absolute;
     top: 3559px;
-    left: 180px;
+    left: 200px;
 }
 
 .blog-header {
